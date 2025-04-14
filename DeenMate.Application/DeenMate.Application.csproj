@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\IslamicCalendar\Commands\" />
+    <Folder Include="Features\IslamicCalendar\Dtos\" />
+    <Folder Include="Features\IslamicCalendar\Queries\" />
+    <Folder Include="Features\IslamicQA\Commands\" />
+    <Folder Include="Features\IslamicQA\Dtos\" />
+    <Folder Include="Features\IslamicQA\Queries\" />
+    <Folder Include="Features\PrayerTimes\Commands\" />
+    <Folder Include="Features\PrayerTimes\Dtos\" />
+    <Folder Include="Features\PrayerTimes\Queries\" />
+    <Folder Include="Behaviors\" />
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+
+</Project>
